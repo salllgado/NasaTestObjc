@@ -101,15 +101,9 @@
 		78A491702226BA4F0033C7DD /* NasaTestObjc */ = {
 			isa = PBXGroup;
 			children = (
-				78A491712226BA4F0033C7DD /* AppDelegate.h */,
-				78A491722226BA4F0033C7DD /* AppDelegate.m */,
-				78A491742226BA4F0033C7DD /* ViewController.h */,
-				78A491752226BA4F0033C7DD /* ViewController.m */,
-				78A491772226BA4F0033C7DD /* Main.storyboard */,
-				78A4917A2226BA510033C7DD /* Assets.xcassets */,
-				78A4917C2226BA510033C7DD /* LaunchScreen.storyboard */,
-				78A4917F2226BA510033C7DD /* Info.plist */,
-				78A491802226BA510033C7DD /* main.m */,
+				78A491A62226BC570033C7DD /* Other Sources */,
+				78A491A52226BC530033C7DD /* Resources */,
+				78A491A42226BC430033C7DD /* Sources */,
 			);
 			path = NasaTestObjc;
 			sourceTree = "<group>";
@@ -130,6 +124,36 @@
 				78A491972226BA510033C7DD /* Info.plist */,
 			);
 			path = NasaTestObjcUITests;
+			sourceTree = "<group>";
+		};
+		78A491A42226BC430033C7DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				78A491742226BA4F0033C7DD /* ViewController.h */,
+				78A491752226BA4F0033C7DD /* ViewController.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		78A491A52226BC530033C7DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78A491772226BA4F0033C7DD /* Main.storyboard */,
+				78A4917A2226BA510033C7DD /* Assets.xcassets */,
+				78A4917C2226BA510033C7DD /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78A491A62226BC570033C7DD /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				78A491802226BA510033C7DD /* main.m */,
+				78A4917F2226BA510033C7DD /* Info.plist */,
+				78A491712226BA4F0033C7DD /* AppDelegate.h */,
+				78A491722226BA4F0033C7DD /* AppDelegate.m */,
+			);
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
