@@ -10,6 +10,7 @@
 #import "AllUsersTableViewCell.h"
 #import "LoginHelper.h"
 #import "HexExtension.h"
+#import "AlertControllerHelper.h"
 
 @interface AllUsersTableViewController ()
 
@@ -29,11 +30,6 @@
     [self retriveUsers];
 }
 
-- (void)retriveUsers {
-    LoginHelper *loginHelper = LoginHelper.new;
-    self.users = [loginHelper listAllUsers];
-}
-
 - (void)configureNavigationBar {
     HexExtension *hexExtension = HexExtension.new;
     UIColor *navBarColor = [hexExtension getHexColor:@"929AFB"];
@@ -45,6 +41,13 @@
     if (@available(iOS 11.0, *)) {
         self.navigationController.navigationBar.prefersLargeTitles = YES;
     }
+    
+    // Add bar button to reset all bank.
+}
+
+- (void)retriveUsers {
+    LoginHelper *loginHelper = LoginHelper.new;
+    self.users = [loginHelper listAllUsers];
 }
 
 #pragma mark - Table view data source
@@ -66,6 +69,15 @@
     [allUsersTableViewCell displayUI:text];
     
     return allUsersTableViewCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    AlertControllerHelper *alertHelper = AlertControllerHelper.new;
+    NSString *message = self.users[indexPath.row].password;
+    UIAlertController *alertController = [alertHelper createAlertController:@"" :message];
+    
+    id rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
+    [rootViewController presentViewController:alertController animated:YES completion:NULL];
 }
 
 @end
