@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD651CA77950150DBB888E9 /* Pods_NasaTestObjcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C125C2AE69366A414D6DA /* Pods_NasaTestObjcTests.framework */; };
 		78A491732226BA4F0033C7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491722226BA4F0033C7DD /* AppDelegate.m */; };
 		78A491762226BA4F0033C7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491752226BA4F0033C7DD /* ViewController.m */; };
 		78A491792226BA4F0033C7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A491772226BA4F0033C7DD /* Main.storyboard */; };
@@ -15,6 +16,13 @@
 		78A491812226BA510033C7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491802226BA510033C7DD /* main.m */; };
 		78A4918B2226BA510033C7DD /* NasaTestObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4918A2226BA510033C7DD /* NasaTestObjcTests.m */; };
 		78A491962226BA510033C7DD /* NasaTestObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491952226BA510033C7DD /* NasaTestObjcUITests.m */; };
+		78A491B32226CEEC0033C7DD /* Localizable+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A491B22226CEEC0033C7DD /* Localizable+IBInspectable.swift */; };
+		78A491B62226D40C0033C7DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A491B82226D40C0033C7DD /* Localizable.strings */; };
+		78A491FE22270CA50033C7DD /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491FD22270CA50033C7DD /* Users.m */; };
+		78A4920B222722CA0033C7DD /* RealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4920A222722CA0033C7DD /* RealmManager.m */; };
+		78A4920F22272BCE0033C7DD /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4920E22272BCE0033C7DD /* LoginHelper.m */; };
+		AF4D536FA4FE3AB48D9656A7 /* Pods_NasaTestObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65A147D9936D4C0B2334A5F /* Pods_NasaTestObjc.framework */; };
+		CD597B4E82AA35CF9726AD6F /* Pods_NasaTestObjcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E4F6C209215EF136670F5 /* Pods_NasaTestObjcUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17371E73EB5D829EA51D3AD2 /* Pods-NasaTestObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjc.debug.xcconfig"; path = "Target Support Files/Pods-NasaTestObjc/Pods-NasaTestObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		48E854F887905849B2818787 /* Pods-NasaTestObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcUITests.debug.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5161059624341F9DA4A72DC8 /* Pods-NasaTestObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcUITests.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
+		532C917CDCA1EAF08CDC66F0 /* Pods-NasaTestObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcTests.debug.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcTests/Pods-NasaTestObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78A4916E2226BA4F0033C7DD /* NasaTestObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaTestObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A491712226BA4F0033C7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78A491722226BA4F0033C7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,23 @@
 		78A491912226BA510033C7DD /* NasaTestObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaTestObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A491952226BA510033C7DD /* NasaTestObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NasaTestObjcUITests.m; sourceTree = "<group>"; };
 		78A491972226BA510033C7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A491B12226CEEC0033C7DD /* NasaTestObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NasaTestObjc-Bridging-Header.h"; sourceTree = "<group>"; };
+		78A491B22226CEEC0033C7DD /* Localizable+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Localizable+IBInspectable.swift"; sourceTree = "<group>"; };
+		78A491B72226D40C0033C7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78A491B92226D4270033C7DD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		78A491BA2226D4270033C7DD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		78A491BB2226D4280033C7DD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		78A491FD22270CA50033C7DD /* Users.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		78A4920022270D5A0033C7DD /* Users.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		78A49209222722CA0033C7DD /* RealmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmManager.h; sourceTree = "<group>"; };
+		78A4920A222722CA0033C7DD /* RealmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmManager.m; sourceTree = "<group>"; };
+		78A4920D22272BCE0033C7DD /* LoginHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		78A4920E22272BCE0033C7DD /* LoginHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHelper.m; sourceTree = "<group>"; };
+		A65A147D9936D4C0B2334A5F /* Pods_NasaTestObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaTestObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DF756F6651DB6F571206CA /* Pods-NasaTestObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcTests.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcTests/Pods-NasaTestObjcTests.release.xcconfig"; sourceTree = "<group>"; };
+		D14F32145237298C1B8628AD /* Pods-NasaTestObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjc.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjc/Pods-NasaTestObjc.release.xcconfig"; sourceTree = "<group>"; };
+		DD9C125C2AE69366A414D6DA /* Pods_NasaTestObjcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaTestObjcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57E4F6C209215EF136670F5 /* Pods_NasaTestObjcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaTestObjcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4D536FA4FE3AB48D9656A7 /* Pods_NasaTestObjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD651CA77950150DBB888E9 /* Pods_NasaTestObjcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +103,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD597B4E82AA35CF9726AD6F /* Pods_NasaTestObjcUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2119939E1AC45951ABE5C9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65A147D9936D4C0B2334A5F /* Pods_NasaTestObjc.framework */,
+				DD9C125C2AE69366A414D6DA /* Pods_NasaTestObjcTests.framework */,
+				F57E4F6C209215EF136670F5 /* Pods_NasaTestObjcUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78A491652226BA4F0033C7DD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				78A491892226BA510033C7DD /* NasaTestObjcTests */,
 				78A491942226BA510033C7DD /* NasaTestObjcUITests */,
 				78A4916F2226BA4F0033C7DD /* Products */,
+				B005BDDBDA61E391A0F2D091 /* Pods */,
+				2119939E1AC45951ABE5C9D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +173,10 @@
 		78A491A42226BC430033C7DD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				78A4920C22272B920033C7DD /* Helper */,
+				78A491BC2226D6020033C7DD /* Manager */,
+				78A491B02226CED80033C7DD /* Extensions */,
+				78A491A72226C6AA0033C7DD /* Models */,
 				78A491742226BA4F0033C7DD /* ViewController.h */,
 				78A491752226BA4F0033C7DD /* ViewController.m */,
 			);
@@ -148,12 +196,62 @@
 		78A491A62226BC570033C7DD /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				78A491B12226CEEC0033C7DD /* NasaTestObjc-Bridging-Header.h */,
 				78A491802226BA510033C7DD /* main.m */,
 				78A4917F2226BA510033C7DD /* Info.plist */,
 				78A491712226BA4F0033C7DD /* AppDelegate.h */,
 				78A491722226BA4F0033C7DD /* AppDelegate.m */,
+				78A491B82226D40C0033C7DD /* Localizable.strings */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		78A491A72226C6AA0033C7DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78A4920022270D5A0033C7DD /* Users.h */,
+				78A491FD22270CA50033C7DD /* Users.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		78A491B02226CED80033C7DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78A491B22226CEEC0033C7DD /* Localizable+IBInspectable.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		78A491BC2226D6020033C7DD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				78A49209222722CA0033C7DD /* RealmManager.h */,
+				78A4920A222722CA0033C7DD /* RealmManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		78A4920C22272B920033C7DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78A4920D22272BCE0033C7DD /* LoginHelper.h */,
+				78A4920E22272BCE0033C7DD /* LoginHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B005BDDBDA61E391A0F2D091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17371E73EB5D829EA51D3AD2 /* Pods-NasaTestObjc.debug.xcconfig */,
+				D14F32145237298C1B8628AD /* Pods-NasaTestObjc.release.xcconfig */,
+				532C917CDCA1EAF08CDC66F0 /* Pods-NasaTestObjcTests.debug.xcconfig */,
+				B3DF756F6651DB6F571206CA /* Pods-NasaTestObjcTests.release.xcconfig */,
+				48E854F887905849B2818787 /* Pods-NasaTestObjcUITests.debug.xcconfig */,
+				5161059624341F9DA4A72DC8 /* Pods-NasaTestObjcUITests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A4919A2226BA510033C7DD /* Build configuration list for PBXNativeTarget "NasaTestObjc" */;
 			buildPhases = (
+				1D3F3EF99FA8D912F4D98CA2 /* [CP] Check Pods Manifest.lock */,
 				78A4916A2226BA4F0033C7DD /* Sources */,
 				78A4916B2226BA4F0033C7DD /* Frameworks */,
 				78A4916C2226BA4F0033C7DD /* Resources */,
+				3E42E27A9C73D561A31D9A8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A4919D2226BA510033C7DD /* Build configuration list for PBXNativeTarget "NasaTestObjcTests" */;
 			buildPhases = (
+				F24F50395E7F9958B86CFB7D /* [CP] Check Pods Manifest.lock */,
 				78A491822226BA510033C7DD /* Sources */,
 				78A491832226BA510033C7DD /* Frameworks */,
 				78A491842226BA510033C7DD /* Resources */,
@@ -198,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A491A02226BA510033C7DD /* Build configuration list for PBXNativeTarget "NasaTestObjcUITests" */;
 			buildPhases = (
+				B64E63730CDEF688D6BA59ED /* [CP] Check Pods Manifest.lock */,
 				78A4918D2226BA510033C7DD /* Sources */,
 				78A4918E2226BA510033C7DD /* Frameworks */,
 				78A4918F2226BA510033C7DD /* Resources */,
+				1253F6955837266AF4BC1401 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +326,7 @@
 				TargetAttributes = {
 					78A4916D2226BA4F0033C7DD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					78A491852226BA510033C7DD = {
 						CreatedOnToolsVersion = 10.1;
@@ -241,6 +345,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 78A491652226BA4F0033C7DD;
 			productRefGroup = 78A4916F2226BA4F0033C7DD /* Products */;
@@ -260,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A4917E2226BA510033C7DD /* LaunchScreen.storyboard in Resources */,
+				78A491B62226D40C0033C7DD /* Localizable.strings in Resources */,
 				78A4917B2226BA510033C7DD /* Assets.xcassets in Resources */,
 				78A491792226BA4F0033C7DD /* Main.storyboard in Resources */,
 			);
@@ -281,14 +387,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1253F6955837266AF4BC1401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D3F3EF99FA8D912F4D98CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaTestObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E42E27A9C73D561A31D9A8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaTestObjc/Pods-NasaTestObjc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NasaTestObjc/Pods-NasaTestObjc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64E63730CDEF688D6BA59ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaTestObjcUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24F50395E7F9958B86CFB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaTestObjcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78A4916A2226BA4F0033C7DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A491FE22270CA50033C7DD /* Users.m in Sources */,
+				78A4920B222722CA0033C7DD /* RealmManager.m in Sources */,
 				78A491762226BA4F0033C7DD /* ViewController.m in Sources */,
 				78A491812226BA510033C7DD /* main.m in Sources */,
+				78A4920F22272BCE0033C7DD /* LoginHelper.m in Sources */,
 				78A491732226BA4F0033C7DD /* AppDelegate.m in Sources */,
+				78A491B32226CEEC0033C7DD /* Localizable+IBInspectable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +557,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				78A491782226BA4F0033C7DD /* Base */,
+				78A491B92226D4270033C7DD /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -336,8 +566,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				78A4917D2226BA510033C7DD /* Base */,
+				78A491BA2226D4270033C7DD /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78A491B82226D40C0033C7DD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A491B72226D40C0033C7DD /* en */,
+				78A491BB2226D4280033C7DD /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -378,6 +619,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -406,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,6 +680,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -457,39 +701,52 @@
 		};
 		78A4919B2226BA510033C7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17371E73EB5D829EA51D3AD2 /* Pods-NasaTestObjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SalgadoProductions.NasaTestObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "NasaTestObjc/NasaTestObjc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		78A4919C2226BA510033C7DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14F32145237298C1B8628AD /* Pods-NasaTestObjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = SalgadoProductions.NasaTestObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "NasaTestObjc/NasaTestObjc-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		78A4919E2226BA510033C7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532C917CDCA1EAF08CDC66F0 /* Pods-NasaTestObjcTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjcTests/Info.plist;
@@ -507,7 +764,9 @@
 		};
 		78A4919F2226BA510033C7DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DF756F6651DB6F571206CA /* Pods-NasaTestObjcTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjcTests/Info.plist;
@@ -525,7 +784,9 @@
 		};
 		78A491A12226BA510033C7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E854F887905849B2818787 /* Pods-NasaTestObjcUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -542,7 +803,9 @@
 		};
 		78A491A22226BA510033C7DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5161059624341F9DA4A72DC8 /* Pods-NasaTestObjcUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NasaTestObjcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

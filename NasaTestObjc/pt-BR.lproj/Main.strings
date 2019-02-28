@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "e-mail"; ObjectID = "JQw-vg-fqv"; */
+"JQw-vg-fqv.placeholder" = "e-mail";
+
+/* Class = "UILabel"; text = "DESCRIPTION_TEXT"; ObjectID = "P44-4o-XtS"; */
+"P44-4o-XtS.text" = "DESCRIPTION_TEXT";
+
+/* Class = "UIButton"; normalTitle = "BUTTON_COMECAR"; ObjectID = "itR-Pg-hc0"; */
+"itR-Pg-hc0.normalTitle" = "BUTTON_COMECAR";
+
+/* Class = "UIButton"; normalTitle = "LOGAR_BUTTON"; ObjectID = "sW5-YT-Gph"; */
+"sW5-YT-Gph.normalTitle" = "LOGAR_BUTTON";

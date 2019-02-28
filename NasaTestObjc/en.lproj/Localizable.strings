@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  NasaTestObjc
+
+  Created by Chrystian Salgado on 27/02/19.
+  Copyright © 2019 Chrystian Salgado. All rights reserved.
+*/
+
+"DESCRIPTION_TEXT" = "Wellcome, here you need to add your credentials do login or signup for more.";
+"BUTTON_COMECAR" = "Get start";
+"LOGAR_BUTTON" = "Login";
+"LOGIN_TEXTFIELD_PLACEHOLDER" = "login";
+"PASSWORD_TEXTFIELD_PLACEHOLDER" = "password";

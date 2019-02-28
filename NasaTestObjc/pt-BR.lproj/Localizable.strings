@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  NasaTestObjc
+
+  Created by Chrystian Salgado on 27/02/19.
+  Copyright © 2019 Chrystian Salgado. All rights reserved.
+*/
+
+"DESCRIPTION_TEXT" = "Bem vindo ao teste com a api da NASA, aqui você tem que logar ou fazer seu cadastro para poder acessar todo acervo da aplicação.";
+"BUTTON_COMECAR" = "Começar";
+"LOGAR_BUTTON" = "Login";
+"LOGIN_TEXTFIELD_PLACEHOLDER" = "login";
+"PASSWORD_TEXTFIELD_PLACEHOLDER" = "senha";
