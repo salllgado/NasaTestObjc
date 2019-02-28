@@ -13,8 +13,7 @@
 
 @implementation LoginHelper
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         _manager = RealmManager.new;
@@ -23,7 +22,8 @@
 }
 
 - (void)verifyLogin: (Users*)userLogin {
-    RLMResults<Users *> *users = [self.manager getUsers];
+    
+    RLMResults<Users *> *users = self.listAllUsers;
     Users *user = Users.new;
     BOOL match = NO;
     
@@ -37,5 +37,10 @@
         [self.manager saveUsers:userLogin];
     }
 }
+
+- (RLMResults<Users *>*) listAllUsers {
+    return [self.manager getUsers];
+}
+
 
 @end
