@@ -11,3 +11,5 @@
 "LOGAR_BUTTON" = "Login";
 "LOGIN_TEXTFIELD_PLACEHOLDER" = "login";
 "PASSWORD_TEXTFIELD_PLACEHOLDER" = "senha";
+"BUTTON_VER_LOGINS" = "Ver logins cadastrados";
+"LIST_OF_USERS" = "Lista de usuários";

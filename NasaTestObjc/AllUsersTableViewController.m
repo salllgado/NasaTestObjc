@@ -9,6 +9,7 @@
 #import "AllUsersTableViewController.h"
 #import "AllUsersTableViewCell.h"
 #import "LoginHelper.h"
+#import "HexExtension.h"
 
 @interface AllUsersTableViewController ()
 
@@ -19,23 +20,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"Lista de Usuarios";
-    self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
-
-    if (@available(iOS 11.0, *)) {
-        self.navigationController.navigationBar.prefersLargeTitles = YES;
-    }
+    [self configureNavigationBar];
     
     NSBundle *cellBundle = [NSBundle bundleForClass:AllUsersTableViewController.self];
     UINib *cellNib = [UINib nibWithNibName: @"AllUsersTableViewCell" bundle: cellBundle];
     [self.tableView registerNib:cellNib forCellReuseIdentifier: @"allUsersTableViewCell"];
     
-    self.getUsers;
+    [self retriveUsers];
 }
 
-- (void)getUsers {
+- (void)retriveUsers {
     LoginHelper *loginHelper = LoginHelper.new;
     self.users = [loginHelper listAllUsers];
+}
+
+- (void)configureNavigationBar {
+    HexExtension *hexExtension = HexExtension.new;
+    UIColor *navBarColor = [hexExtension getHexColor:@"929AFB"];
+    
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    self.navigationController.navigationBar.barTintColor = navBarColor;
+    self.navigationItem.title = NSLocalizedString(@"LIST_OF_USERS", "");
+    
+    if (@available(iOS 11.0, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+    }
 }
 
 #pragma mark - Table view data source

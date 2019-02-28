@@ -25,6 +25,7 @@
 		78A4921A22280F060033C7DD /* AllUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4921922280F060033C7DD /* AllUsersTableViewController.m */; };
 		78A4921E222813630033C7DD /* AllUsersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A4921C222813630033C7DD /* AllUsersTableViewCell.m */; };
 		78A4921F222813630033C7DD /* AllUsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A4921D222813630033C7DD /* AllUsersTableViewCell.xib */; };
+		78A492232228585E0033C7DD /* HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A492222228585E0033C7DD /* HexExtension.m */; };
 		AF4D536FA4FE3AB48D9656A7 /* Pods_NasaTestObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65A147D9936D4C0B2334A5F /* Pods_NasaTestObjc.framework */; };
 		CD597B4E82AA35CF9726AD6F /* Pods_NasaTestObjcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E4F6C209215EF136670F5 /* Pods_NasaTestObjcUITests.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,8 @@
 		78A4921B222813630033C7DD /* AllUsersTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllUsersTableViewCell.h; sourceTree = "<group>"; };
 		78A4921C222813630033C7DD /* AllUsersTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllUsersTableViewCell.m; sourceTree = "<group>"; };
 		78A4921D222813630033C7DD /* AllUsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllUsersTableViewCell.xib; sourceTree = "<group>"; };
+		78A492212228585E0033C7DD /* HexExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexExtension.h; sourceTree = "<group>"; };
+		78A492222228585E0033C7DD /* HexExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexExtension.m; sourceTree = "<group>"; };
 		A65A147D9936D4C0B2334A5F /* Pods_NasaTestObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaTestObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DF756F6651DB6F571206CA /* Pods-NasaTestObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcTests.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcTests/Pods-NasaTestObjcTests.release.xcconfig"; sourceTree = "<group>"; };
 		D14F32145237298C1B8628AD /* Pods-NasaTestObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjc.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjc/Pods-NasaTestObjc.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				78A491B22226CEEC0033C7DD /* Localizable+IBInspectable.swift */,
+				78A492212228585E0033C7DD /* HexExtension.h */,
+				78A492222228585E0033C7DD /* HexExtension.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				78A4920F22272BCE0033C7DD /* LoginHelper.m in Sources */,
 				78A491732226BA4F0033C7DD /* AppDelegate.m in Sources */,
 				78A491B32226CEEC0033C7DD /* Localizable+IBInspectable.swift in Sources */,
+				78A492232228585E0033C7DD /* HexExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

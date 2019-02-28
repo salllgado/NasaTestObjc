@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property RLMResults<Users *> *users;
 
-- (void)getUsers;
+- (void)retriveUsers;
+- (void)configureNavigationBar;
 
 @end
 
