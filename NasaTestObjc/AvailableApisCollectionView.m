@@ -10,6 +10,7 @@
 #import "AvailableApiCollectionViewCell.h"
 #import "AvailableApi.h"
 #import "DetailApiController.h"
+#import "HexExtension.h"
 
 @interface AvailableApisCollectionView ()
 
@@ -33,17 +34,25 @@ static NSString * const reuseIdentifier = @"collectionViewCell";
     // Register cell classes
     UINib *nib = [UINib nibWithNibName:@"AvailableApiCollectionViewCell" bundle:nil];
     [self.collectionView registerNib:nib forCellWithReuseIdentifier:reuseIdentifier];
+    
+    self.configureNavigationBar;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)configureNavigationBar {
+    HexExtension *hexExtension = HexExtension.new;
+    UIColor *navBarColor = [hexExtension getHexColor:@"929AFB"];
+    
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    self.navigationController.navigationBar.barTintColor = navBarColor;
+    self.navigationItem.title = NSLocalizedString(@"LIST_OF_APIS_TITLE", "");
+    
+    if (@available(iOS 11.0, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+    }
+    
+    // Add bar button to reset all bank.
 }
-*/
+
 
 #pragma mark <UICollectionViewDataSource>
 

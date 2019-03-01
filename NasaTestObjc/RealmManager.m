@@ -24,4 +24,11 @@
     return users;
 }
 
+-(void)clearRealm {
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    [realm transactionWithBlock:^{
+        [realm deleteAllObjects];
+    }];
+}
+
 @end

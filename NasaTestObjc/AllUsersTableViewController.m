@@ -48,6 +48,7 @@
 - (void)retriveUsers {
     LoginHelper *loginHelper = LoginHelper.new;
     self.users = [loginHelper listAllUsers];
+    [self.tableView reloadData];
 }
 
 #pragma mark - Table view data source

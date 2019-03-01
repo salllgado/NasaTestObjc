@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AvailableApisCollectionView : UICollectionViewController
 
+- (void)configureNavigationBar;
+
 @end
 
 NS_ASSUME_NONNULL_END

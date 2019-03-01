@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// Get all users from realm
 - (RLMResults*)getUsers;
 
+-(void)clearRealm;
+
 @end
 
 NS_ASSUME_NONNULL_END
