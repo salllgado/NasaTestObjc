@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) RealmManager *manager;
 
-- (void)verifyLogin: (Users*)userLogin;
+- (BOOL)verifyLogin: (Users*)userLogin;
 - (RLMResults<Users *>*) listAllUsers;
 
 @end

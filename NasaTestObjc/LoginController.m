@@ -13,6 +13,7 @@
 #import "Realm/Realm.h"
 #import "AllUsersTableViewController.h"
 #import "AvailableApisCollectionView.h"
+#import "AlertControllerHelper.h"
 
 @interface LoginController ()
 
@@ -60,15 +61,16 @@
 
 - (void)saveDataOnDB :(Users*)user {
     _loginHelper = LoginHelper.new;
-    [self.loginHelper verifyLogin:user];
-    
-//    [self performSegueWithIdentifier:@"routeToAvailableApis" sender:self];
-    
-    NSString *storyboardName = @"AvailableApis";
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-    UINavigationController *navigationController = (UINavigationController*) [storyboard instantiateInitialViewController];
-    AvailableApisCollectionView *availableApisCollectionView = (AvailableApisCollectionView*) navigationController.viewControllers.firstObject;
-    [self.navigationController presentViewController:navigationController animated:YES completion:nil];
+    if ([self.loginHelper verifyLogin:user] == YES) {
+        self.showListApisController;
+    } else {
+        AlertControllerHelper *alertHelper = AlertControllerHelper.new;
+        NSString *message = NSLocalizedString(@"ERRO_LOGIN_INVALIDO", "");
+        UIAlertController *alertController = [alertHelper createAlertController:@"" :message];
+        
+        id rootViewController = [UIApplication sharedApplication].delegate.window.rootViewController;
+        [rootViewController presentViewController:alertController animated:YES completion:NULL];
+    }
 }
 
 - (void)setupUIComponents {
@@ -77,6 +79,13 @@
     
     _loginTf.placeholder = NSLocalizedString(@"LOGIN_TEXTFIELD_PLACEHOLDER", "");
     _passwordTf.placeholder = NSLocalizedString(@"LOGIN_TEXTFIELD_PLACEHOLDER", "");
+}
+
+- (void)showListApisController {
+    NSString *storyboardName = @"AvailableApis";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    UINavigationController *navigationController = (UINavigationController*) [storyboard instantiateInitialViewController];
+    [self.navigationController presentViewController:navigationController animated:YES completion:nil];
 }
 
 
@@ -91,7 +100,6 @@
 }
 
 - (IBAction)actionShowAllLogins:(id)sender {
-//    [self performSegueWithIdentifier:@"routeToAllUsers" sender:self];
     AllUsersTableViewController *viewController = AllUsersTableViewController.new;
     [self.navigationController showViewController:viewController sender:NULL];
 }

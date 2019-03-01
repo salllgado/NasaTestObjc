@@ -21,7 +21,11 @@
     return self;
 }
 
-- (void)verifyLogin: (Users*)userLogin {
+- (BOOL)verifyLogin: (Users*)userLogin {
+    
+    if ([userLogin.login isEqualToString:@""] || [userLogin.password isEqualToString:@""]) {
+        return NO;
+    }
     
     RLMResults<Users *> *users = self.listAllUsers;
     Users *user = Users.new;
@@ -36,6 +40,8 @@
     if (match == NO) {
         [self.manager saveUsers:userLogin];
     }
+    
+    return YES;
 }
 
 - (RLMResults<Users *>*) listAllUsers {

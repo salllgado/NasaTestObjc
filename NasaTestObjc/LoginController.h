@@ -10,6 +10,7 @@
 
 @interface LoginController : UIViewController
 
+- (void) showListApisController;
 
 @end
 
