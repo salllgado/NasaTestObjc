@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3AD651CA77950150DBB888E9 /* Pods_NasaTestObjcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C125C2AE69366A414D6DA /* Pods_NasaTestObjcTests.framework */; };
+		785BB5662229659700114FB9 /* AvailableApis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785BB5652229659700114FB9 /* AvailableApis.storyboard */; };
+		785BB56A222967D400114FB9 /* AvailableApisCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785BB569222967D400114FB9 /* AvailableApisCollectionView.m */; };
+		785BB56D22296BE800114FB9 /* AvailableApiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785BB56C22296BE800114FB9 /* AvailableApiCollectionViewCell.m */; };
+		785BB56F2229776E00114FB9 /* AvailableApiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785BB56E2229776E00114FB9 /* AvailableApiCollectionViewCell.xib */; };
+		785BB57222297CF600114FB9 /* AvailableApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 785BB57122297CF600114FB9 /* AvailableApi.m */; };
+		785BB576222980DD00114FB9 /* DetailApiController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785BB575222980DD00114FB9 /* DetailApiController.m */; };
+		785BB5792229810000114FB9 /* DetailApi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785BB5782229810000114FB9 /* DetailApi.storyboard */; };
 		78A491732226BA4F0033C7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491722226BA4F0033C7DD /* AppDelegate.m */; };
 		78A491762226BA4F0033C7DD /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A491752226BA4F0033C7DD /* LoginController.m */; };
 		78A491792226BA4F0033C7DD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A491772226BA4F0033C7DD /* Login.storyboard */; };
@@ -53,6 +60,17 @@
 		48E854F887905849B2818787 /* Pods-NasaTestObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcUITests.debug.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5161059624341F9DA4A72DC8 /* Pods-NasaTestObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcUITests.release.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcUITests/Pods-NasaTestObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
 		532C917CDCA1EAF08CDC66F0 /* Pods-NasaTestObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaTestObjcTests.debug.xcconfig"; path = "Target Support Files/Pods-NasaTestObjcTests/Pods-NasaTestObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		785BB5652229659700114FB9 /* AvailableApis.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AvailableApis.storyboard; sourceTree = "<group>"; };
+		785BB568222967D400114FB9 /* AvailableApisCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvailableApisCollectionView.h; sourceTree = "<group>"; };
+		785BB569222967D400114FB9 /* AvailableApisCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvailableApisCollectionView.m; sourceTree = "<group>"; };
+		785BB56B22296BE800114FB9 /* AvailableApiCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvailableApiCollectionViewCell.h; sourceTree = "<group>"; };
+		785BB56C22296BE800114FB9 /* AvailableApiCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvailableApiCollectionViewCell.m; sourceTree = "<group>"; };
+		785BB56E2229776E00114FB9 /* AvailableApiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailableApiCollectionViewCell.xib; sourceTree = "<group>"; };
+		785BB57022297CF600114FB9 /* AvailableApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvailableApi.h; sourceTree = "<group>"; };
+		785BB57122297CF600114FB9 /* AvailableApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvailableApi.m; sourceTree = "<group>"; };
+		785BB574222980DD00114FB9 /* DetailApiController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailApiController.h; sourceTree = "<group>"; };
+		785BB575222980DD00114FB9 /* DetailApiController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailApiController.m; sourceTree = "<group>"; };
+		785BB5782229810000114FB9 /* DetailApi.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailApi.storyboard; sourceTree = "<group>"; };
 		78A4916E2226BA4F0033C7DD /* NasaTestObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaTestObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A491712226BA4F0033C7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78A491722226BA4F0033C7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +152,43 @@
 				F57E4F6C209215EF136670F5 /* Pods_NasaTestObjcUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		785BB5642229651C00114FB9 /* AvailableApis */ = {
+			isa = PBXGroup;
+			children = (
+				785BB5652229659700114FB9 /* AvailableApis.storyboard */,
+				785BB56E2229776E00114FB9 /* AvailableApiCollectionViewCell.xib */,
+			);
+			name = AvailableApis;
+			sourceTree = "<group>";
+		};
+		785BB567222967BA00114FB9 /* AvailableApis */ = {
+			isa = PBXGroup;
+			children = (
+				785BB568222967D400114FB9 /* AvailableApisCollectionView.h */,
+				785BB569222967D400114FB9 /* AvailableApisCollectionView.m */,
+				785BB56B22296BE800114FB9 /* AvailableApiCollectionViewCell.h */,
+				785BB56C22296BE800114FB9 /* AvailableApiCollectionViewCell.m */,
+			);
+			name = AvailableApis;
+			sourceTree = "<group>";
+		};
+		785BB573222980C400114FB9 /* Detail Api */ = {
+			isa = PBXGroup;
+			children = (
+				785BB574222980DD00114FB9 /* DetailApiController.h */,
+				785BB575222980DD00114FB9 /* DetailApiController.m */,
+			);
+			name = "Detail Api";
+			sourceTree = "<group>";
+		};
+		785BB577222980EC00114FB9 /* DetailApi */ = {
+			isa = PBXGroup;
+			children = (
+				785BB5782229810000114FB9 /* DetailApi.storyboard */,
+			);
+			name = DetailApi;
 			sourceTree = "<group>";
 		};
 		78A491652226BA4F0033C7DD = {
@@ -226,6 +281,8 @@
 			children = (
 				78A4920022270D5A0033C7DD /* Users.h */,
 				78A491FD22270CA50033C7DD /* Users.m */,
+				785BB57022297CF600114FB9 /* AvailableApi.h */,
+				785BB57122297CF600114FB9 /* AvailableApi.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -263,6 +320,8 @@
 		78A4921222280E330033C7DD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				785BB577222980EC00114FB9 /* DetailApi */,
+				785BB5642229651C00114FB9 /* AvailableApis */,
 				78A4921422280E460033C7DD /* UsersList */,
 				78A4921322280E3F0033C7DD /* Login */,
 			);
@@ -289,6 +348,8 @@
 		78A4921522280E630033C7DD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				785BB573222980C400114FB9 /* Detail Api */,
+				785BB567222967BA00114FB9 /* AvailableApis */,
 				78A4921722280E770033C7DD /* UserList */,
 				78A4921622280E680033C7DD /* Login */,
 			);
@@ -439,9 +500,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A4917E2226BA510033C7DD /* LaunchScreen.storyboard in Resources */,
+				785BB5792229810000114FB9 /* DetailApi.storyboard in Resources */,
+				785BB56F2229776E00114FB9 /* AvailableApiCollectionViewCell.xib in Resources */,
 				78A491B62226D40C0033C7DD /* Localizable.strings in Resources */,
 				78A4917B2226BA510033C7DD /* Assets.xcassets in Resources */,
 				78A4921122280D7E0033C7DD /* AllUsers.storyboard in Resources */,
+				785BB5662229659700114FB9 /* AvailableApis.storyboard in Resources */,
 				78A4921F222813630033C7DD /* AllUsersTableViewCell.xib in Resources */,
 				78A491792226BA4F0033C7DD /* Login.storyboard in Resources */,
 			);
@@ -587,16 +651,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785BB576222980DD00114FB9 /* DetailApiController.m in Sources */,
 				78A491FE22270CA50033C7DD /* Users.m in Sources */,
 				78A4920B222722CA0033C7DD /* RealmManager.m in Sources */,
 				78A4921A22280F060033C7DD /* AllUsersTableViewController.m in Sources */,
 				78A491762226BA4F0033C7DD /* LoginController.m in Sources */,
 				78A4921E222813630033C7DD /* AllUsersTableViewCell.m in Sources */,
+				785BB56A222967D400114FB9 /* AvailableApisCollectionView.m in Sources */,
 				78A491812226BA510033C7DD /* main.m in Sources */,
 				78A49226222874E90033C7DD /* AlertControllerHelper.m in Sources */,
 				78A4920F22272BCE0033C7DD /* LoginHelper.m in Sources */,
 				78A491732226BA4F0033C7DD /* AppDelegate.m in Sources */,
 				78A491B32226CEEC0033C7DD /* Localizable+IBInspectable.swift in Sources */,
+				785BB56D22296BE800114FB9 /* AvailableApiCollectionViewCell.m in Sources */,
+				785BB57222297CF600114FB9 /* AvailableApi.m in Sources */,
 				78A492232228585E0033C7DD /* HexExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

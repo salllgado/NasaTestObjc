@@ -244,6 +244,7 @@
                         <outlet property="passwordTf" destination="H7e-Jk-teg" id="vwf-i1-LrB"/>
                         <outlet property="scrollViewContent" destination="eyr-Cp-eKf" id="7XM-Gb-hqI"/>
                         <segue destination="vO8-oG-Y3B" kind="show" identifier="routeToAllUsers" id="k7K-yq-px2"/>
+                        <segue destination="08m-mR-w8h" kind="presentation" identifier="routeToAvailableApis" modalPresentationStyle="pageSheet" id="nSt-Nc-msF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -259,6 +260,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vAe-2v-bNf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1962.4000000000001" y="31.773399014778327"/>
+        </scene>
+        <!--AvailableApis-->
+        <scene sceneID="g8T-Oa-W3y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AvailableApis" id="08m-mR-w8h" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iI8-26-U6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1986" y="86"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ca6-kw-CHK">

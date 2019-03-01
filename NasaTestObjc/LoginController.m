@@ -12,6 +12,7 @@
 #import "NasaTestObjc-Swift.h"
 #import "Realm/Realm.h"
 #import "AllUsersTableViewController.h"
+#import "AvailableApisCollectionView.h"
 
 @interface LoginController ()
 
@@ -60,11 +61,19 @@
 - (void)saveDataOnDB :(Users*)user {
     _loginHelper = LoginHelper.new;
     [self.loginHelper verifyLogin:user];
+    
+//    [self performSegueWithIdentifier:@"routeToAvailableApis" sender:self];
+    
+    NSString *storyboardName = @"AvailableApis";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    UINavigationController *navigationController = (UINavigationController*) [storyboard instantiateInitialViewController];
+    AvailableApisCollectionView *availableApisCollectionView = (AvailableApisCollectionView*) navigationController.viewControllers.firstObject;
+    [self.navigationController presentViewController:navigationController animated:YES completion:nil];
 }
 
 - (void)setupUIComponents {
     NSBundle *classBundle = [NSBundle bundleForClass:LoginController.self];
-    _logoIv.image = [UIImage imageNamed: @"logo" inBundle: classBundle compatibleWithTraitCollection: NULL];
+    _logoIv.image = [UIImage imageNamed: @"logo" inBundle: classBundle compatibleWithTraitCollection: nil];
     
     _loginTf.placeholder = NSLocalizedString(@"LOGIN_TEXTFIELD_PLACEHOLDER", "");
     _passwordTf.placeholder = NSLocalizedString(@"LOGIN_TEXTFIELD_PLACEHOLDER", "");
